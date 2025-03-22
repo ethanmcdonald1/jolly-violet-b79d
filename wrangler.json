@@ -1,0 +1,30 @@
+{
+  "name": "jolly-violet-b79d",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2024-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "silent-haze-b28e-d1",
+      "database_id": "cbf75649-a81f-45d7-be06-9a5224ab25b2"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "jolly-violet-b79d-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
